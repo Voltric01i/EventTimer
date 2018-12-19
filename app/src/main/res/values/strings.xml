@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Event Timer</string>
+    <string name="action_settings">設定</string>
+    <string name="title_activity_main">イベント</string>
+    <string name="title_activity_input">予定の入力</string>
+    <string name="title_title">タイトル</string>
+    <string name="memo_title">メモ</string>
+    <string name="date_title">日時</string>
+    <string name="setter_title">通知日時</string>
+    <string name="title_hint">予定のタイトルを入力</string>
+    <string name="memo_hint">メモを入力</string>
+    <string name="title_blank">blank\n0000年 0月00日 午前 0時00分</string>
+    <string name="countdown_blank">残り 0分</string>
+    <string name="memo_blank">---------</string>
+
+</resources>

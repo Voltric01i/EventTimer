@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mainPrimary">#FFC107</color>
+    <color name="mainPrimaryDark">#FFA000</color>
+    <color name="mainAccent">#FF5722</color>
+    <color name="inputAccent">#FF5722</color>
+    <color name="inputPrimary">#B6B6B6</color>
+    <color name="inputPrimaryDark">#727272</color>
+    <color name="colorText">#212121</color>
+    <color name="colorTextHint">#B6B6B6</color>
+    <color name="colorTextLight">#7b7b7b</color>
+
+
+
+</resources>

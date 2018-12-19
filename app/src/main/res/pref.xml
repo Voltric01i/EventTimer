@@ -1,0 +1,31 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="カテゴリ１">
+        <EditTextPreference
+            android:key="key_editText"
+            android:title="Edit Text"
+            android:summary="Edit Text Summary"
+            android:dialogTitle="Dialog Title"
+            android:dialogMessage="Dialog Message"
+            android:defaultValue="Default Value"
+        />
+        <ListPreference
+            android:key="key_list"
+            android:title="List Title"
+            android:summary="List Summary"
+            android:dialogTitle="Dialog Title"
+            android:entries="@array/listEntries"
+            android:entryValues="@array/listEntryValues"
+        />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="カテゴリ２">
+        <CheckBoxPreference
+            android:key="key_checkBox"
+            android:title="CheckBox Item1"
+            android:summary="Checkbox1 summary"
+            android:summaryOn="Checkbox1 ON"
+            android:summaryOff="Checkbox1 OFF"
+        />
+    </PreferenceCategory>
+</PreferenceScreen>

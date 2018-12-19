@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="3dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="2dp"
+        card_view:contentPadding="10dp"
+        app:cardUseCompatPadding="true"
+        android:id="@+id/cardView">
+
+        <!-- カードに載せる情報 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/cardRelative">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/EventTitle"
+                android:text="@string/title_blank"
+                android:textColor="@color/colorTextLight"
+                android:textSize="17sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/EventConutdown"
+                android:textColor="@color/colorText"
+                android:textSize="23sp"
+                android:text="@string/countdown_blank"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="7dp"
+                android:layout_below="@+id/EventTitle"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/EventMemo"
+                android:textColor="@color/colorTextLight"
+                android:textSize="15sp"
+                android:text="@string/memo_blank"
+                android:layout_below="@+id/EventConutdown"
+                android:autoLink="all"
+                android:gravity="center"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
